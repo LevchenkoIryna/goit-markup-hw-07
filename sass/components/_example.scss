@@ -4,7 +4,7 @@
   background-color: var(--basic-white-color);
 }
 
-.box-img {
+.example-img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -14,16 +14,16 @@
   background-color: var(--basic-white-color);
 }
 
-.example-link {
+.example-box__link {
   display: block;
   text-decoration: none;
 
   transition: box-shadow 250ms var(--timing-function);
-}
 
-.example-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .position {
@@ -53,11 +53,11 @@
   background-color: var(--portfolio-hover);
 }
 
-.example-link:hover .overlay {
+.example-box__link:hover .overlay {
   transform: translateY(0);
 }
 
-.border {
+.description {
   border: 2px solid var(--bcg-color-gray);
   border-top: none;
   padding-top: 20px;
@@ -67,7 +67,7 @@
   justify-self: center;
 }
 
-.example-title {
+.description__title {
   color: var(--basic-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -77,7 +77,7 @@
   list-style: none;
 }
 
-.example-text {
+.description__text {
   color: var(--second-text-color);
   font-size: 16px;
   line-height: 30px;

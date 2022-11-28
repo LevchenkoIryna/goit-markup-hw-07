@@ -1,11 +1,11 @@
-.list-box {
+.button-example {
   display: flex;
   gap: 8px;
   justify-content: center;
   margin-bottom: 56px;
 }
 
-.menu-button {
+.button-example__menu {
   background-color: var(--bcg-color-gray);
   color: var(--basic-text-color);
   font-weight: 500;

@@ -20,7 +20,7 @@
   padding: 0;
 }
 
-.hero-title {
+.hero__title {
   color: var(--basic-white-color);
   text-transform: uppercase;
   font-weight: 900;
@@ -36,7 +36,7 @@
   padding-right: 200px;
 }
 
-.hero-button {
+.hero__button {
   background-color: var(--accent-color);
   color: var(--basic-white-color);
   font-weight: 700;
